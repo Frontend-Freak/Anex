@@ -191,9 +191,8 @@ input::placeholder{
 }
 
 
-.tours {
-    
-}
+/*?====================================== MAIN-TOURS ======================================*/
+
 
 .tours__inner{
     position: relative;
@@ -207,8 +206,6 @@ input::placeholder{
     left: -155px;
 }
 
-.tours__title {
-}
 .tours__subtitle {
     margin:4px 0 62px;
 }
@@ -217,8 +214,6 @@ input::placeholder{
     display: flex;
     gap: 32px;
     margin-bottom: 53px;
-}
-.swiper-slide {
 }
 
 .tours__card {
@@ -268,7 +263,7 @@ padding: 2px 10px;
     top: 0px;
     right: 50px;
 }
-.swiper-scrollbar {
-}
 
+
+/*?====================================== MAIN-HOTELS ======================================*/
 
