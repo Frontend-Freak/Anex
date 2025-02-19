@@ -1,0 +1,274 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1{
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    }
+
+h3{
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+h4{
+font-weight: 300;
+font-size: 24px;
+text-transform: uppercase;
+color: #1c1c1c;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+/*?====================================== HEADER ======================================*/
+
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 42px;
+}
+
+.header__nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.header__nav-link:hover {
+    color: #ec1c24;
+}
+.header__contact {
+    display: flex;
+    gap: 30px;
+}
+.header__btn {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #6a6a6a;
+    border-radius: 30px;
+    width: 162px;
+    height: 39px;
+    background-color: transparent;
+}
+.header__btn:hover {
+    background-color: #f8f8f8;
+}
+
+.header__btn-link {
+}
+.header__links-list {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.header__links-item:hover path{
+    stroke: #585858;
+}
+.header__links-link {
+}
+
+/*?====================================== MAIN-HERO ======================================*/
+
+
+.hero {
+    background: url(../img/hero-bg.png) center no-repeat;
+    background-size: cover;
+    height: 995px ;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__title {
+    margin-top: 157px;
+}
+
+.hero__subtitle {
+    position: relative;
+    margin: 38px 0 182px;
+}
+
+.hero__text::after{
+    position: absolute;
+    content: url(../img/stick.png);
+    bottom: -130px;
+    left: 90px;
+}
+
+
+/*?====================================== MAIN-TICKETFORM ======================================*/
+
+.ticket__form {
+    display: flex;
+    margin-bottom: 251px;
+    align-items: center;
+    border-radius: 30px;
+    height: 64px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-left:solid 1px #585858;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.ticket__form input:first-child{
+    border-left: none;
+}
+
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    width: 154px;
+}
+
+.ticket__btn{
+    position: relative;
+    padding: 10px 45px 10px 29px;
+    background-color: #ec1c24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.ticket__btn::after{
+    position: absolute;
+    content: url(../img/arrow-left-down.svg);
+    top: 10px;
+    right: 18px;
+}
+
+
+.tours {
+    
+}
+
+.tours__inner{
+    position: relative;
+    padding: 134px 0 140px 0;
+}
+
+.tours__inner::after{
+    position: absolute;
+    content: url(../img/tours.svg);
+    top: 180px;
+    left: -155px;
+}
+
+.tours__title {
+}
+.tours__subtitle {
+    margin:4px 0 62px;
+}
+
+.swiper-wrapper{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 53px;
+}
+.swiper-slide {
+}
+
+.tours__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/italy.png);
+    border-radius: 30px;
+    width: 256px;
+    height: 340px;
+    padding: 20px;
+    color: #fff;
+}
+
+.tours__card-price__list {
+    display: flex;
+    gap: 10px;
+}
+
+.tours__card-price__item {
+    border: 1px solid #fff;
+border-radius: 30px;
+height: 21px;
+padding: 2px 10px;
+}
+
+.tours__card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tours__card-location {
+    word-spacing: 12px;
+}
+
+.more {
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff9d;
+}
+
+.more::after {
+    content: url(../img/line.svg);
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.swiper-scrollbar {
+}
+
+
