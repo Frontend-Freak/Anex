@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Anex</title>
 </head>
@@ -89,7 +89,7 @@
                 
                         <input placeholder="Туристы" type="number" id="quantity" name="quantity" min="1" required><br><br>
                 
-                        <button class="ticket__btn" type="submit">Подобрать</button>
+                        <button class="ticket__btn btn" type="submit">Подобрать</button>
                     </form>
                 </div>
             </div>
@@ -105,9 +105,11 @@
                         Поймайте момент
                     </h4>
 
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                    <div class="tours__slider swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="tours__wrapper swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -135,7 +137,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -163,7 +165,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -191,7 +193,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -219,7 +221,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -247,7 +249,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="tours__slide swiper-slide">
                                 <a href="#!" class="swiper-slide__link">
                                     <div class="tours__card">
                                         <ul class="tours__card-price__list">
@@ -269,6 +271,182 @@
                                             </h5>
     
                                             <span class="more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="tours__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="tours__card">
+                                        <ul class="tours__card-price__list">
+                                            <li class="tours__card-price__item">
+                                                9 дней
+                                            </li>
+                                            <li class="tours__card-price__item">
+                                                от 25 000 ₽
+                                            </li>
+                                        </ul>
+
+                                        <div class="tours__card-info">
+                                            <h5 class="tours__card-location">
+                                                Италия Венеция
+                                            </h5>
+                                            
+                                            <h5 class="tours__card-date">
+                                                12-18 октября
+                                            </h5>
+    
+                                            <span class="more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="tours__scrollbar swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hotels">
+            <div class="container">
+                <div class="hotels__inner">
+                    <h2 class="hotels__title">
+                        популярные отели
+                    </h2>
+                    <h4 class="hotels__subtitle">
+                        уют и роскошь в лучших отелях мира
+                    </h4>
+
+                    <div class="hotels__slider swiper">
+                        <div class="hotels__wrapper swiper-wrapper">
+                            
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
+                                                узнать подробнее
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotels__slide swiper-slide">
+                                <a href="#!" class="swiper-slide__link">
+                                    <div class="hotels__card">
+                                        <span class="hotels__raiting">
+                                            5
+                                        </span>
+                                        <div class="hotels__card-info">
+                                            <h5 class="hotel">
+                                                Villa Flori Como
+                                            </h5>
+    
+                                            <span class="hotels__more">
                                                 узнать подробнее
                                             </span>
                                         </div>
@@ -276,14 +454,35 @@
                                 </a>
                             </div>
                         </div>
-                        
-                        <div class="swiper-scrollbar"></div>
+                        <div class="hotels__scrollbar swiper-scrollbar"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        
+        <div class="main__feedback">
+            <div class="container">
+                <div class="feedback-inner">
+                    <h4 class="feedback__title">
+                        не определились с выбором?
+                    </h4>
+                    <p class="feedback__text">
+                        Оставьте свой номер и наш специалист поможет вам с подбором тура
+                    </p>
+                    <form action="" class="feedback__form">
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+                    </form>
+                    <button class="feedbak__button btn">
+                        <a href="#!">
+                            отправить
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
     </main>
 
 
@@ -291,7 +490,7 @@
 
     </footer>
 
-    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
