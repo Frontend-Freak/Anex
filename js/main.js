@@ -14,12 +14,24 @@
     const hotelsSwiper = new Swiper('.hotels__slider', {
         // Опции Swiper
         slidesPerView: 3, // Количество слайдов, отображаемых одновременно
-        spaceBetween: 30,
+        spaceBetween: 60,
         centeredSlides: true,
         loop: true,
 
         scrollbar: {
             el: '.hotels__scrollbar',
+            draggable: true,
+        },
+    });
+
+    const reviewsSwiper = new Swiper('.reviews__slider', {
+        // Опции Swiper
+        slidesPerView: 3, // Количество слайдов, отображаемых одновременно
+        spaceBetween: 32,
+        loop: true,
+
+        scrollbar: {
+            el: '.reviews__scrollbar',
             draggable: true,
         },
     });
