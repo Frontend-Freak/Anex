@@ -11,567 +11,661 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="header__logo">
-                    <img src="./img/logo.png" alt="logo">
-                </div>
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">
-                            Подбор тура
-                        </a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">
-                            Горящие туры
-                        </a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">
-                            Страны
-                        </a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">
-                            отели
-                        </a>
-                    </li>
-                </ul>
-                <div class="header__contact">
-                    <button class="header__btn">
-                        <a href="" class="header__btn-link">
-                            оставить заявку
-                        </a>
-                    </button>
-                    <ul class="header__links-list">
-                        <li class="header__links-item">
-                            <a href="#!" class="header__links-link">
-                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23.8008 19.8578C23.8008 20.2478 23.7141 20.6487 23.53 21.0387C23.3458 21.4287 23.1075 21.797 22.7933 22.1437C22.2625 22.7287 21.6775 23.1512 21.0166 23.422C20.3666 23.6928 19.6625 23.8337 18.9041 23.8337C17.7991 23.8337 16.6183 23.5737 15.3725 23.0428C14.1266 22.512 12.8808 21.797 11.6458 20.8978C10.4 19.9878 9.21913 18.9803 8.09246 17.8645C6.97663 16.7378 5.96913 15.557 5.06996 14.322C4.18163 13.087 3.46663 11.852 2.94663 10.6278C2.42663 9.39283 2.16663 8.21199 2.16663 7.08533C2.16663 6.34866 2.29663 5.64449 2.55663 4.99449C2.81663 4.33366 3.22829 3.72699 3.80246 3.18533C4.49579 2.50283 5.25413 2.16699 6.05579 2.16699C6.35913 2.16699 6.66246 2.23199 6.93329 2.36199C7.21496 2.49199 7.46413 2.68699 7.65913 2.96866L10.1725 6.51116C10.3675 6.78199 10.5083 7.03116 10.6058 7.26949C10.7033 7.49699 10.7575 7.72449 10.7575 7.93033C10.7575 8.19033 10.6816 8.45033 10.53 8.69949C10.3891 8.94866 10.1833 9.20866 9.92329 9.46866L9.09996 10.3245C8.98079 10.4437 8.92663 10.5845 8.92663 10.7578C8.92663 10.8445 8.93746 10.9203 8.95913 11.007C8.99163 11.0937 9.02413 11.1587 9.04579 11.2237C9.24079 11.5812 9.57663 12.047 10.0533 12.6103C10.5408 13.1737 11.0608 13.7478 11.6241 14.322C12.2091 14.8962 12.7725 15.427 13.3466 15.9145C13.91 16.3912 14.3758 16.7162 14.7441 16.9112C14.7983 16.9328 14.8633 16.9653 14.9391 16.9978C15.0258 17.0303 15.1125 17.0412 15.21 17.0412C15.3941 17.0412 15.535 16.9762 15.6541 16.857L16.4775 16.0445C16.7483 15.7737 17.0083 15.5678 17.2575 15.4378C17.5066 15.2862 17.7558 15.2103 18.0266 15.2103C18.2325 15.2103 18.4491 15.2537 18.6875 15.3512C18.9258 15.4487 19.175 15.5895 19.4458 15.7737L23.0316 18.3195C23.3133 18.5145 23.5083 18.742 23.6275 19.0128C23.7358 19.2837 23.8008 19.5545 23.8008 19.8578Z" stroke="#1C1C1C" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </svg>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">
+                                Подбор тура
                             </a>
                         </li>
-                        <li class="header__links-item">
-                            <a href="#!" class="header__links-link">
-                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13 14.5491C14.8667 14.5491 16.38 13.0358 16.38 11.1691C16.38 9.30234 14.8667 7.78906 13 7.78906C11.1333 7.78906 9.62 9.30234 9.62 11.1691C9.62 13.0358 11.1333 14.5491 13 14.5491Z" stroke="#1C1C1C" stroke-width="1.5"/>
-                                    <path d="M3.92168 9.19783C6.05584 -0.183839 19.955 -0.173005 22.0783 9.20866C23.3242 14.712 19.9008 19.3703 16.9 22.252C14.7225 24.3537 11.2775 24.3537 9.08918 22.252C6.09918 19.3703 2.67584 14.7012 3.92168 9.19783Z" stroke="#1C1C1C" stroke-width="1.5"/>
-                                </svg>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">
+                                Горящие туры
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">
+                                Страны
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">
+                                отели
                             </a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <main class="main">
-        <section class="main_hero">
-            <div class="container">
-                <div class="hero__inner">
-                    <h1 class="hero__title">
-                        путешествия мечты
-                    </h1>
-                    <h3 class="hero__subtitle">
-                        выбери свою
-                    </h3>
-                    <form class="ticket__form" id="ticketForm">
-                        <input placeholder="Откуда" type="text" id="from" name="from" required><br><br>
-                
-                        <input placeholder="Куда" type="text" id="to" name="to" required><br><br>
-                
-                        <input placeholder="Вылет" type="date" id="date" name="date" required><br><br>
-                
-                        <input placeholder="На сколько" type="number" id="duration" name="duration" min="1" required><br><br>
-                
-                        <input placeholder="Туристы" type="number" id="quantity" name="quantity" min="1" required><br><br>
-                
-                        <button class="ticket__btn btn" type="submit">Подобрать</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <section class="main_tours">
-            <div class="container">
-                <div class="tours__inner">
-                    <h2 class="tours__title">
-                        горящие туры
-                    </h2>
-                    <h4 class="tours__subtitle">
-                        Поймайте момент
-                    </h4>
-
-                    <div class="tours__slider swiper">
-                        
-                        <div class="tours__wrapper swiper-wrapper">
-                            
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/italy.png" alt="italy">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                9 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 25 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                Италия <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg>Венеция
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                12-18 октября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
+                    <div class="header__contact">
+                        <button class="header__btn">
+                            <a href="" class="header__btn-link">
+                                оставить заявку
+                            </a>
+                        </button>
+                        <ul class="header__links-list">
+                            <li class="header__links-item">
+                                <a href="#!" class="header__links-link">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M23.8008 19.8578C23.8008 20.2478 23.7141 20.6487 23.53 21.0387C23.3458 21.4287 23.1075 21.797 22.7933 22.1437C22.2625 22.7287 21.6775 23.1512 21.0166 23.422C20.3666 23.6928 19.6625 23.8337 18.9041 23.8337C17.7991 23.8337 16.6183 23.5737 15.3725 23.0428C14.1266 22.512 12.8808 21.797 11.6458 20.8978C10.4 19.9878 9.21913 18.9803 8.09246 17.8645C6.97663 16.7378 5.96913 15.557 5.06996 14.322C4.18163 13.087 3.46663 11.852 2.94663 10.6278C2.42663 9.39283 2.16663 8.21199 2.16663 7.08533C2.16663 6.34866 2.29663 5.64449 2.55663 4.99449C2.81663 4.33366 3.22829 3.72699 3.80246 3.18533C4.49579 2.50283 5.25413 2.16699 6.05579 2.16699C6.35913 2.16699 6.66246 2.23199 6.93329 2.36199C7.21496 2.49199 7.46413 2.68699 7.65913 2.96866L10.1725 6.51116C10.3675 6.78199 10.5083 7.03116 10.6058 7.26949C10.7033 7.49699 10.7575 7.72449 10.7575 7.93033C10.7575 8.19033 10.6816 8.45033 10.53 8.69949C10.3891 8.94866 10.1833 9.20866 9.92329 9.46866L9.09996 10.3245C8.98079 10.4437 8.92663 10.5845 8.92663 10.7578C8.92663 10.8445 8.93746 10.9203 8.95913 11.007C8.99163 11.0937 9.02413 11.1587 9.04579 11.2237C9.24079 11.5812 9.57663 12.047 10.0533 12.6103C10.5408 13.1737 11.0608 13.7478 11.6241 14.322C12.2091 14.8962 12.7725 15.427 13.3466 15.9145C13.91 16.3912 14.3758 16.7162 14.7441 16.9112C14.7983 16.9328 14.8633 16.9653 14.9391 16.9978C15.0258 17.0303 15.1125 17.0412 15.21 17.0412C15.3941 17.0412 15.535 16.9762 15.6541 16.857L16.4775 16.0445C16.7483 15.7737 17.0083 15.5678 17.2575 15.4378C17.5066 15.2862 17.7558 15.2103 18.0266 15.2103C18.2325 15.2103 18.4491 15.2537 18.6875 15.3512C18.9258 15.4487 19.175 15.5895 19.4458 15.7737L23.0316 18.3195C23.3133 18.5145 23.5083 18.742 23.6275 19.0128C23.7358 19.2837 23.8008 19.5545 23.8008 19.8578Z" stroke="#1C1C1C" stroke-width="1.5" stroke-miterlimit="10"/>
+                                    </svg>
                                 </a>
-                            </div>
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/turkey.png" alt="italy">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                14 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 95 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                турция<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg> Каппадокия
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                16-30 сентября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li class="header__links-item">
+                                <a href="#!" class="header__links-link">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13 14.5491C14.8667 14.5491 16.38 13.0358 16.38 11.1691C16.38 9.30234 14.8667 7.78906 13 7.78906C11.1333 7.78906 9.62 9.30234 9.62 11.1691C9.62 13.0358 11.1333 14.5491 13 14.5491Z" stroke="#1C1C1C" stroke-width="1.5"/>
+                                        <path d="M3.92168 9.19783C6.05584 -0.183839 19.955 -0.173005 22.0783 9.20866C23.3242 14.712 19.9008 19.3703 16.9 22.252C14.7225 24.3537 11.2775 24.3537 9.08918 22.252C6.09918 19.3703 2.67584 14.7012 3.92168 9.19783Z" stroke="#1C1C1C" stroke-width="1.5"/>
+                                    </svg>
                                 </a>
-                            </div>
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/italy-rome.png" alt="rome">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                5 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 80 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg>рим
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                10-15 ноября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/dubai.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                9 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 25 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                оаэ<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg>дубай
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                12-18 октября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/italy-florence.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                9 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 25 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                Италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg>флоренция
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                12-18 октября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="tours__slide swiper-slide">
-                                <img src="./img/italy-rome2.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="tours__card">
-                                        <ul class="tours__card-price__list">
-                                            <li class="tours__card-price__item">
-                                                9 дней
-                                            </li>
-                                            <li class="tours__card-price__item">
-                                                от 25 000 ₽
-                                            </li>
-                                        </ul>
-
-                                        <div class="tours__card-info">
-                                            <h5 class="tours__card-location">
-                                                италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
-                                                </svg>рим
-                                            </h5>
-                                            
-                                            <h5 class="tours__card-date">
-                                                10-15 ноября
-                                            </h5>
-    
-                                            <span class="more">
-                                                узнать подробнее
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="tours__scrollbar swiper-scrollbar"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="main_hotels">
-            <div class="container">
-                <div class="hotels__inner">
-                    <h2 class="hotels__title">
-                        популярные отели
-                    </h2>
-                    <h4 class="hotels__subtitle">
-                        уют и роскошь в лучших отелях мира
-                    </h4>
-
-                    <div class="hotels__slider swiper">
-                        <div class="hotels__wrapper swiper-wrapper">
+        </header>
+    
+    
+        <main class="main">
+            <section class="main_hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <h1 class="hero__title">
+                            путешествия мечты
+                        </h1>
+                        <h3 class="hero__subtitle">
+                            выбери свою
+                        </h3>
+                        <form class="ticket__form" id="ticketForm">
+                            <input placeholder="Откуда" type="text" id="from" name="from" required><br><br>
+                    
+                            <input placeholder="Куда" type="text" id="to" name="to" required><br><br>
+                    
+                            <input placeholder="Вылет" type="date" id="date" name="date" required><br><br>
+                    
+                            <input placeholder="На сколько" type="number" id="duration" name="duration" min="1" required><br><br>
+                    
+                            <input placeholder="Туристы" type="number" id="quantity" name="quantity" min="1" required><br><br>
+                    
+                            <button class="ticket__btn btn" type="submit">Подобрать</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="main_tours">
+                <div class="container">
+                    <div class="tours__inner">
+                        <h2 class="tours__title">
+                            горящие туры
+                        </h2>
+                        <h4 class="tours__subtitle">
+                            Поймайте момент
+                        </h4>
+    
+                        <div class="tours__slider swiper">
                             
-                            <div class="hotels__slide swiper-slide">
-                                <img class="hotels__img" src="./img/villa-flori.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="hotels__card">
-                                        <span class="hotels__raiting">
-                                            5
-                                        </span>
-                                        <div class="hotels__card-info">
-                                            <h5 class="hotel">
-                                                Villa Flori Como
-                                            </h5>
+                            <div class="tours__wrapper swiper-wrapper">
+                                
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/italy.png" alt="italy">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    9 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 25 000 ₽
+                                                </li>
+                                            </ul>
     
-                                            <span class="hotels__more">
-                                                узнать подробнее
-                                            </span>
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    Италия <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg>Венеция
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    12-18 октября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="hotels__slide swiper-slide">
-                                <img class="hotels__img" src="./img/ikos-dassia.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="hotels__card">
-                                        <span class="hotels__raiting">
-                                            4.8
-                                        </span>
-                                        <div class="hotels__card-info">
-                                            <h5 class="hotel">
-                                                Ikos Dassia
-                                            </h5>
+                                    </a>
+                                </div>
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/turkey.png" alt="italy">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    14 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 95 000 ₽
+                                                </li>
+                                            </ul>
     
-                                            <span class="hotels__more">
-                                                узнать подробнее
-                                            </span>
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    турция<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg> Каппадокия
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    16-30 сентября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="hotels__slide swiper-slide">
-                                <img class="hotels__img" src="./img/villa-flori.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="hotels__card">
-                                        <span class="hotels__raiting">
-                                            5
-                                        </span>
-                                        <div class="hotels__card-info">
-                                            <h5 class="hotel">
-                                                Villa Flori Como
-                                            </h5>
+                                    </a>
+                                </div>
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/italy-rome.png" alt="rome">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    5 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 80 000 ₽
+                                                </li>
+                                            </ul>
     
-                                            <span class="hotels__more">
-                                                узнать подробнее
-                                            </span>
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg>рим
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    10-15 ноября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="hotels__slide swiper-slide">
-                                <img class="hotels__img" src="./img/jw-marriot.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="hotels__card">
-                                        <span class="hotels__raiting">
-                                            5
-                                        </span>
-                                        <div class="hotels__card-info">
-                                            <h5 class="hotel">
-                                                JW Marriott Marquis
-                                            </h5>
+                                    </a>
+                                </div>
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/dubai.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    9 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 25 000 ₽
+                                                </li>
+                                            </ul>
     
-                                            <span class="hotels__more">
-                                                узнать подробнее
-                                            </span>
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    оаэ<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg>дубай
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    12-18 октября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="hotels__slide swiper-slide">
-                                <img class="hotels__img" src="./img/ritz-carlton.png" alt="">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="hotels__card">
-                                        <span class="hotels__raiting">
-                                            4.9
-                                        </span>
-                                        <div class="hotels__card-info">
-                                            <h5 class="hotel">
-                                                Ritz-Carlton
-                                            </h5>
+                                    </a>
+                                </div>
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/italy-florence.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    9 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 25 000 ₽
+                                                </li>
+                                            </ul>
     
-                                            <span class="hotels__more">
-                                                узнать подробнее
-                                            </span>
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    Италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg>флоренция
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    12-18 октября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
+                                <div class="tours__slide swiper-slide">
+                                    <img src="./img/italy-rome2.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="tours__card">
+                                            <ul class="tours__card-price__list">
+                                                <li class="tours__card-price__item">
+                                                    9 дней
+                                                </li>
+                                                <li class="tours__card-price__item">
+                                                    от 25 000 ₽
+                                                </li>
+                                            </ul>
+    
+                                            <div class="tours__card-info">
+                                                <h5 class="tours__card-location">
+                                                    италия<svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.5" cy="2.5" r="2.5" fill="white" />
+                                                    </svg>рим
+                                                </h5>
+                                                
+                                                <h5 class="tours__card-date">
+                                                    10-15 ноября
+                                                </h5>
+        
+                                                <span class="more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
                             </div>
                             
+                            <div class="tours__scrollbar swiper-scrollbar"></div>
                         </div>
-                        <div class="hotels__scrollbar swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="main_hotels">
+                <div class="container">
+                    <div class="hotels__inner">
+                        <h2 class="hotels__title">
+                            популярные отели
+                        </h2>
+                        <h4 class="hotels__subtitle">
+                            уют и роскошь в лучших отелях мира
+                        </h4>
+    
+                        <div class="hotels__slider swiper">
+                            <div class="hotels__wrapper swiper-wrapper">
+                                
+                                <div class="hotels__slide swiper-slide">
+                                    <img class="hotels__img" src="./img/villa-flori.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="hotels__card">
+                                            <span class="hotels__raiting">
+                                                5
+                                            </span>
+                                            <div class="hotels__card-info">
+                                                <h5 class="hotel">
+                                                    Villa Flori Como
+                                                </h5>
+        
+                                                <span class="hotels__more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hotels__slide swiper-slide">
+                                    <img class="hotels__img" src="./img/ikos-dassia.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="hotels__card">
+                                            <span class="hotels__raiting">
+                                                4.8
+                                            </span>
+                                            <div class="hotels__card-info">
+                                                <h5 class="hotel">
+                                                    Ikos Dassia
+                                                </h5>
+        
+                                                <span class="hotels__more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hotels__slide swiper-slide">
+                                    <img class="hotels__img" src="./img/villa-flori.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="hotels__card">
+                                            <span class="hotels__raiting">
+                                                5
+                                            </span>
+                                            <div class="hotels__card-info">
+                                                <h5 class="hotel">
+                                                    Villa Flori Como
+                                                </h5>
+        
+                                                <span class="hotels__more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hotels__slide swiper-slide">
+                                    <img class="hotels__img" src="./img/jw-marriot.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="hotels__card">
+                                            <span class="hotels__raiting">
+                                                5
+                                            </span>
+                                            <div class="hotels__card-info">
+                                                <h5 class="hotel">
+                                                    JW Marriott Marquis
+                                                </h5>
+        
+                                                <span class="hotels__more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="hotels__slide swiper-slide">
+                                    <img class="hotels__img" src="./img/ritz-carlton.png" alt="">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="hotels__card">
+                                            <span class="hotels__raiting">
+                                                4.9
+                                            </span>
+                                            <div class="hotels__card-info">
+                                                <h5 class="hotel">
+                                                    Ritz-Carlton
+                                                </h5>
+        
+                                                <span class="hotels__more">
+                                                    узнать подробнее
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <div class="hotels__scrollbar swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <div class="main__feedback">
+                <div class="container">
+                    <div class="feedback-inner">
+                        <h4 class="feedback__title">
+                            не определились с выбором?
+                        </h4>
+                        <p class="feedback__text">
+                            Оставьте свой номер и наш специалист поможет вам с подбором тура
+                        </p>
+                        <form action="" class="feedback__form">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Телефон">
+                        </form>
+                        <button class="feedbak__button btn">
+                            <a href="#!">
+                                отправить
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <div class="main__feedback">
-            <div class="container">
-                <div class="feedback-inner">
-                    <h4 class="feedback__title">
-                        не определились с выбором?
-                    </h4>
-                    <p class="feedback__text">
-                        Оставьте свой номер и наш специалист поможет вам с подбором тура
-                    </p>
-                    <form action="" class="feedback__form">
-                        <input type="text" placeholder="Имя">
-                        <input type="tel" placeholder="Телефон">
-                    </form>
-                    <button class="feedbak__button btn">
-                        <a href="#!">
-                            отправить
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <section class="reviews">
-            <div class="container">
-                <div class="reviews__inner">
-                    <h2 class="reviews__title">
-                        отзывы
-                    </h2>
-                    <h4 class="reviews__subtitle">
-                        Впечатления наших путешественников
-                    </h4>
-
-                    <div class="reviews__slider swiper">
-                        <div class="reviews__wrapper swiper-wrapper">
-                            <div class="reviews__slide swiper-slide">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="reviews__card">
-                                        <img src="./img/revier1.png" alt="" class="reviews__img">
-                                        <div class="review__stars">
-                                            <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
-                                                <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
-                                                <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
-                                                <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
-                                                <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
-                                            </svg>
+    
+            <section class="main__reviews">
+                <div class="container">
+                    <div class="reviews__inner">
+                        <h2 class="reviews__title">
+                            отзывы
+                        </h2>
+                        <h4 class="reviews__subtitle">
+                            Впечатления наших путешественников
+                        </h4>
+    
+                        <div class="reviews__slider swiper">
+                            <div class="reviews__wrapper swiper-wrapper">
+                                <div class="reviews__slide swiper-slide">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="reviews__card">
+                                            <img src="./img/revier1.png" alt="" class="reviews__img">
+                                            <div class="review__stars">
+                                                <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
+                                                </svg>
+                                            </div>
+                                            <span class="reviewer__name">
+                                                Мария С. из Москвы
+                                            </span>
+                                            <span class="reviewer__location">
+                                                Летала в Париж 20.07.23 в отель Ritz-Carlton 
+                                            </span>
+                                            <div class="reviewer__review">
+                                                <span>Невероятное путешествие!</span> <br>
+                                                <p>Спасибо за организацию моей поездки в Париж. Все было просто идеально - от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!</p>
+                                            </div>
                                         </div>
-                                        <span class="reviewer__name">
-                                            Мария С. из Москвы
-                                        </span>
-                                        <span class="reviewer__location">
-                                            Летала в Париж 20.07.23 в отель Ritz-Carlton 
-                                        </span>
-                                        <div class="reviewer__review">
-                                            <span>Невероятное путешествие!</span> <br>
-                                            <p>Спасибо за организацию моей поездки в Париж. Все было просто идеально - от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!</p>
+                                    </a>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="reviews__card">
+                                            <img src="./img/revier2.png" alt="" class="reviews__img">
+                                            <div class="review__stars">
+                                                <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
+                                                </svg>
+                                            </div>
+                                            <span class="reviewer__name">
+                                                Александр Г. из Санкт-Петербурга
+                                            </span>
+                                            <span class="reviewer__location">
+                                                Летал в Тайланд 10.05.23 в отель The Silver Palm Wellness Resort
+                                            </span>
+                                            <div class="reviewer__review">
+                                                <span>Путешествие в Таиланд оказалось невероятным благодаря вашим услугам.</span> <br>
+                                                <p>Профессиональное планирование, отличные рекомендации по местам для посещения и великолепный выбор отелей. Обязательно вернусь к вам снова.</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="reviews__slide swiper-slide">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="reviews__card">
-                                        <img src="./img/revier2.png" alt="" class="reviews__img">
-                                        <div class="review__stars">
-                                            <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
-                                                <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
-                                                <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
-                                                <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
-                                                <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
-                                            </svg>
+                                    </a>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="reviews__card">
+                                            <img src="./img/revier3.png" alt="" class="reviews__img">
+                                            <div class="review__stars">
+                                                <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
+                                                </svg>
+                                            </div>
+                                            <span class="reviewer__name">
+                                                Екатерина Л. из Екатеринбурга
+                                            </span>
+                                            <span class="reviewer__location">
+                                                Летала на Бали 12.08.23 в отель Hanging Gardens
+                                            </span>
+                                            <p class="reviewer__review">
+                                                Спасибо за незабываемый отдых на Бали! Все было под контролем, начиная с бронирования и заканчивая возвращением домой. Отличная коммуникация и внимание к деталям создали идеальное путешествие.
+                                            </p>
                                         </div>
-                                        <span class="reviewer__name">
-                                            Александр Г. из Санкт-Петербурга
-                                        </span>
-                                        <span class="reviewer__location">
-                                            Летал в Тайланд 10.05.23 в отель The Silver Palm Wellness Resort
-                                        </span>
-                                        <div class="reviewer__review">
-                                            <span>Путешествие в Таиланд оказалось невероятным благодаря вашим услугам.</span> <br>
-                                            <p>Профессиональное планирование, отличные рекомендации по местам для посещения и великолепный выбор отелей. Обязательно вернусь к вам снова.</p>
+                                    </a>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <a href="#!" class="swiper-slide__link">
+                                        <div class="reviews__card">
+                                            <img src="./img/revier4.png" alt="" class="reviews__img">
+                                            <div class="review__stars">
+                                                <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
+                                                    <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
+                                                </svg>
+                                            </div>
+                                            <span class="reviewer__name">
+                                                Ольга И. из Новосибирска
+                                            </span>
+                                            <span class="reviewer__location">
+                                                Летала в Японию 02.08.23 в отели Nishimuraya Honkan и Four Seasons Hotel Kyoto 
+                                            </span>
+                                            <div class="reviewer__review">
+                                                <span>Ваша турфирма стала моим надежным проводником в мир :)</span> <br>
+                                                <p>После поездки в Японию я почувствовала себя настоящим путешественником. Отличная организация, забота о клиентах и интересные маршруты делают вас лучшими! Большое спасибо!</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="reviews__slide swiper-slide">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="reviews__card">
-                                        <img src="./img/revier3.png" alt="" class="reviews__img">
-                                        <div class="review__stars">
-                                            <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
-                                                <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
-                                                <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
-                                                <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
-                                                <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
-                                            </svg>
-                                        </div>
-                                        <span class="reviewer__name">
-                                            Екатерина Л. из Екатеринбурга
-                                        </span>
-                                        <span class="reviewer__location">
-                                            Летала на Бали 12.08.23 в отель Hanging Gardens
-                                        </span>
-                                        <p class="reviewer__review">
-                                            Спасибо за незабываемый отдых на Бали! Все было под контролем, начиная с бронирования и заканчивая возвращением домой. Отличная коммуникация и внимание к деталям создали идеальное путешествие.
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="reviews__slide swiper-slide">
-                                <a href="#!" class="swiper-slide__link">
-                                    <div class="reviews__card">
-                                        <img src="./img/revier4.png" alt="" class="reviews__img">
-                                        <div class="review__stars">
-                                            <svg width="134" height="22" viewBox="0 0 134 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 8.49987L14.0061 7.97432L10.9956 0.411133L7.9851 7.97432L0 8.49987L6.12451 13.7002L4.11477 21.5888L10.9956 17.2395L17.8765 21.5888L15.8668 13.7002L22 8.49987Z" fill="#EC1C24" />
-                                                <path d="M50 8.49987L42.0061 7.97432L38.9956 0.411133L35.9851 7.97432L28 8.49987L34.1245 13.7002L32.1148 21.5888L38.9956 17.2395L45.8765 21.5888L43.8668 13.7002L50 8.49987Z" fill="#EC1C24" />
-                                                <path d="M78 8.49987L70.0061 7.97432L66.9956 0.411133L63.9851 7.97432L56 8.49987L62.1245 13.7002L60.1148 21.5888L66.9956 17.2395L73.8765 21.5888L71.8668 13.7002L78 8.49987Z" fill="#EC1C24" />
-                                                <path d="M106 8.49987L98.0061 7.97432L94.9956 0.411133L91.9851 7.97432L84 8.49987L90.1245 13.7002L88.1148 21.5888L94.9956 17.2395L101.877 21.5888L99.8668 13.7002L106 8.49987Z" fill="#EC1C24" />
-                                                <path d="M134 8.49987L126.006 7.97432L122.996 0.411133L119.985 7.97432L112 8.49987L118.125 13.7002L116.115 21.5888L122.996 17.2395L129.877 21.5888L127.867 13.7002L134 8.49987Z" fill="#EC1C24" />
-                                            </svg>
-                                        </div>
-                                        <span class="reviewer__name">
-                                            Ольга И. из Новосибирска
-                                        </span>
-                                        <span class="reviewer__location">
-                                            Летала в Японию 02.08.23 в отели Nishimuraya Honkan и Four Seasons Hotel Kyoto 
-                                        </span>
-                                        <div class="reviewer__review">
-                                            <span>Ваша турфирма стала моим надежным проводником в мир :)</span> <br>
-                                            <p>После поездки в Японию я почувствовала себя настоящим путешественником. Отличная организация, забота о клиентах и интересные маршруты делают вас лучшими! Большое спасибо!</p>
-                                        </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
+                                
                             </div>
                             
+                            <div class="reviews__scrollbar swiper-scrollbar"></div>
                         </div>
-                        
-                        <div class="reviews__scrollbar swiper-scrollbar"></div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-    </main>
-
-
-    <footer class="footer">
-
-    </footer>
+            </section>
+    
+            <section class="main__news">
+                <div class="container">
+                    <div class="news__inner">
+                        <h2 class="news__title">
+                            новости
+                        </h2>
+                        <h4 class="news__subtitle">
+                            события в мире туризма
+                        </h4>
+                        <div class="news__grid">
+                            <div class="news__grid-item news__grid-item--1">
+                                <img class="grid___item-bg" src="./img/news1.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--1">
+                                        <h5 class="news__grid-title news__grid-title--1">
+                                            отдых с детьми: <br> о чем нужно помнить в путешествии
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news__grid-item news__grid-item--2">
+                                <img class="grid___item-bg" src="./img/news2.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--2">
+                                        <h5 class="news__grid-title">
+                                            ТОП-10 уникальных и завораживающих мест в ОАЭ
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news__grid-item news__grid-item--3">
+                                <img class="grid___item-bg" src="./img/news3.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--3">
+                                        <h5 class="news__grid-title">
+                                            Отдых, близкий к природе и экологии
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news__grid-item news__grid-item--4">
+                                <img class="grid___item-bg" src="./img/news4.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--4">
+                                        <h5 class="news__grid-title">
+                                            богатство культурных  и исторических сокровищ разных стран
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news__grid-item news__grid-item--5">
+                                <img class="grid___item-bg" src="./img/news5.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--5">
+                                        <h5 class="news__grid-title news__grid-title--5">
+                                            Как сделать путешествие незабываемым для всех
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news__grid-item news__grid-item--6">
+                                <img class="grid___item-bg" src="./img/news6.png" alt="">
+                                <a href="#!" class="news__grid-link">
+                                    <div class="news__grid-card news__grid-card--6">
+                                        <h5 class="news__grid-title">
+                                            путешествия, которые приведут вас в мир высот, глубин и скорости
+                                        </h5>
+                                        <span class="news__grid-more">
+                                            читать
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+    
+        <footer class="footer">
+    
+        </footer>
+    </div>
 
     <script src="./js/swiper-bundle.js"></script>
     <script src="./js/main.js"></script>
