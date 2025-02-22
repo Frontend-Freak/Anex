@@ -652,7 +652,6 @@ padding: 2px 10px;
     display: flex;
     align-items: start;
     gap: 32px;
-    font-family: var(--font-family);
     font-weight: 300;
     font-size: 16px;
     line-height: 162%;
@@ -786,4 +785,12 @@ padding: 2px 10px;
     align-items: center;
     height: 413px ;
     padding: 0;
+}
+
+
+/*?====================================== ADAPTIV ======================================*/
+
+
+@media (max-width: 1024px) {
+    
 }

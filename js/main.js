@@ -34,3 +34,13 @@ const reviewsSwiper = new Swiper('.reviews__slider', {
     },
 });
 
+
+document.getElementById('burger__button').addEventListener('click', function() {
+    const menu = document.getElementById('burger__menu');
+    menu.classList.toggle('show'); 
+    const lines = document.querySelectorAll('.line');
+    lines[0].classList.toggle('line1');
+    lines[1].classList.toggle('line2');
+    lines[2].classList.toggle('line3');
+});
+

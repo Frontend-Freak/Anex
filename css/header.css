@@ -22,6 +22,7 @@
 
 .header__contact {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -51,4 +52,107 @@
 
 .header__links-item:hover path{
     stroke: #585858;
+}
+
+.burger__button{
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 25px;
+    justify-content: space-around;
+    margin: 10px;
+    transition: all .5s;
+}
+
+.burger__button::after{
+    position: absolute;
+    content: '';
+    border: 1px solid #e3e3e3;
+    height:38px;
+    width: 0px;
+    top: -8px;
+    left: -24px;
+}
+
+.header__burger-menu{
+    position: relative;
+    transition: 0.5s;
+}
+
+.burger__menu {
+    overflow: hidden;
+    position: absolute;
+    top: 41px;
+    left: -1450px;
+    max-height: 0px;
+    transition: all 0.5s;
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    width: 1920px;
+    z-index: 1000;
+    transition: 0.5s;
+    
+}
+
+.burger__menu.show {
+    position: absolute;
+    left: -1450px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 305px;
+    width: 100vw;
+    padding: 52px 644px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.line {
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+.line1 {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+.line2 {
+    opacity: 0;
+}
+.line3 {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.popular__countries-title,
+.tourists-title,
+.company-title{
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.popular__counries-item,
+.tourists-item,
+.company-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 193%;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__nav-item:nth-child(3),
+    .header__nav-item:nth-child(4){
+        display: none;
+    }
 }
