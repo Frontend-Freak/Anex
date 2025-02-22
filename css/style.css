@@ -932,6 +932,7 @@ padding: 2px 10px;
     width: 149px;
     letter-spacing: 0.02em;
 }
+
 .footer__form input{
     background: #222;
 }
@@ -953,6 +954,7 @@ padding: 2px 10px;
     top: 7px;
     left: 15px;
 }
+
 .footer__form button{
     background: #222;
 }
