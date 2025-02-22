@@ -1,0 +1,54 @@
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 42px;
+}
+
+.header__nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header__nav-link:hover {
+    color: #ec1c24;
+}
+
+.header__contact {
+    display: flex;
+    gap: 30px;
+}
+
+.header__btn {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #6a6a6a;
+    border-radius: 30px;
+    width: 162px;
+    height: 39px;
+    background-color: transparent;
+}
+
+.header__btn:hover {
+    background-color: #f8f8f8;
+}
+
+.header__btn-link {
+}
+
+.header__links-list {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.header__links-item:hover path{
+    stroke: #585858;
+}

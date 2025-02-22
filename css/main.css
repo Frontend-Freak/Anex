@@ -1,0 +1,789 @@
+/*?====================================== MAIN-HERO ======================================*/
+
+
+.main_hero {
+    background: url(../img/hero-bg.png) center no-repeat;
+    background-size: cover;
+    height: 995px ;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__title {
+    margin-top: 157px;
+}
+
+.hero__subtitle {
+    position: relative;
+    margin: 38px 0 182px;
+}
+
+.hero__text::after{
+    position: absolute;
+    content: url(../img/stick.png);
+    bottom: -130px;
+    left: 90px;
+}
+
+
+/*?====================================== MAIN-TICKETFORM ======================================*/
+
+.ticket__form {
+    display: flex;
+    margin-bottom: 251px;
+    align-items: center;
+    border-radius: 30px;
+    height: 64px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.ticket__form input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-left:solid 1px #585858;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.ticket__form input:first-child{
+    border-left: none;
+}
+
+.ticket__form input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    width: 154px;
+}
+
+.btn{
+    position: relative;
+    padding: 10px 45px 10px 29px;
+    background-color: #ec1c24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.btn::after{
+    position: absolute;
+    content: url(../img/arrow-left-down.svg);
+    top: 10px;
+    right: 18px;
+}
+
+
+/*?====================================== MAIN-TOURS ======================================*/
+
+
+.tours__inner{
+    position: relative;
+    padding: 134px 0 140px 0;/* 
+    padding-left: max(15px, calc((100% - 1120px) / 2)); */
+}
+
+.tours__inner::after{
+    position: absolute;
+    content: url(../img/tours.svg);
+    top: 180px;
+    left: -155px;
+}
+
+.tours__subtitle {
+    margin:4px 0 62px;
+}
+
+.swiper-wrapper{
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.tours__slide{
+    margin: 17px 0 0 17px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.tours__slide:hover{
+    transform: scale(1.1);
+}
+
+.tours__card {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-image: url(../img/italy.png); */
+    border-radius: 30px;
+    width: 256px;
+    height: 340px;
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.34) 100%);
+}
+
+.tours__card-price__list {
+    display: flex;
+    gap: 10px;
+}
+
+.tours__card-price__item {
+    border: 1px solid #fff;
+border-radius: 30px;
+height: 21px;
+padding: 2px 10px;
+}
+
+.tours__card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tours__card-location {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+}
+
+/* .tours__card-location::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+} */
+
+.more {
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff9d;
+}
+
+.more::after {
+    content: url(../img/line.svg);
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+
+/*?====================================== MAIN-HOTELS ======================================*/
+
+
+.main_hotels{
+    background: #f8f8f8;
+}
+
+.main_hotels .container {
+    /* max-width: 1920px;
+    width: 100%; */
+    padding: 0;
+}
+
+.hotels__inner{
+    position: relative;
+    padding: 170px 0 193px ;
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+.hotels__inner::after{
+    position: absolute;
+    content: url(../img/Hotels.png);
+    top: 70px;
+    /* left: 855px; */
+    left: 46.5%;
+}
+
+.hotels__title {
+    text-align: center;
+}
+
+.hotels__subtitle {
+    text-align: center;
+    margin: 4px 0 52px;
+}
+
+.hotels__slider {
+    position: relative;
+    padding-top: 10px;
+    overflow: visible;
+}
+.hotels__slider.swiper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hotels__wrapper {
+    display: flex;
+    margin-bottom: 53px;
+    max-width: 1920px;
+    width: 100%;
+}
+.hotels__slide.swiper-slide{
+    transition: all .5s;
+    margin: 0 10px;
+}
+.swiper-slide-active.hotels__slide{
+    transform: scale(1.2);
+    margin: 0 10px;
+}
+
+.swiper-slide-prev.hotels__slide,
+.swiper-slide-next.hotels__slide{
+    transform: scale(1.1);
+    margin: 0 10px;
+}
+
+.hotels__slide {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+
+.hotels__img{
+    width: 100%;
+    height: auto;
+}
+
+.hotels__card{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;/* 
+    background-image: url(../img/villa-flori.png); */
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.34) 100%);
+    /* margin-bottom: 52px; */
+    width: 100%;
+    height: 100%;
+}
+
+.hotels__raiting {
+    font-family: 'Chandra', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    margin-right: 23px;
+}
+
+.hotels__raiting::after{
+    position: absolute;
+    content: url(../img/star.png);
+    top: -35px;
+    right: -25px;
+}
+
+.hotel{
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.hotels__more {
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff9d
+}
+
+.hotels__more::after{
+    content: url(../img/line.svg);
+    position: absolute;
+    top: 0px;
+    right: -50px;
+}
+
+.hotels__scrollbar.swiper-scrollbar{
+    position: static;
+    max-width: 1022px;
+    left: 50%;
+}
+
+.swiper-slide__link{
+    overflow: 100%;
+}
+
+
+/*?====================================== MAIN-FEEDBACK--1 ======================================*/
+
+
+.main__feedback {
+    background: url(../img/form-bg.png) center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 605px ;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.feedback-inner {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 39px 50px;
+    border-radius: 30px;
+    gap: 60px;
+}
+
+.feedback__title {
+    width: 300px;
+}
+
+.feedback__text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #1c1c1c;
+    width: 208px;
+    line-height: 1.2;
+}
+
+.feedback__form{
+    width: 144px;
+}
+
+.feedback__form input{
+    border-bottom: 1px solid #848484;
+    padding-bottom: 10px;
+}
+
+.feedback__form input:first-child{
+    margin-bottom: 11px;
+}
+
+
+/*?====================================== MAIN-REVIEW ======================================*/
+
+
+.reviews__inner {
+    position: relative;
+    padding: 174px 0 215px ;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.reviews__inner::after{
+    position: absolute;
+    content: url(../img/Reviews.png);
+    top: 55px;
+    left: 420px;
+}
+
+.reviews__title {
+    text-align: center;
+}
+
+.reviews__subtitle {
+    text-align: center;
+    margin: 4px 0 67px;
+}
+
+.reviews__card {
+    border-radius: 30px;
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 24px 32px;
+    background: #f8f8f8;
+}
+
+.reviews__img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.reviewer__name {
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6b6b6b;
+    margin: 10px 0 5px;
+}
+.reviewer__location {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+}
+
+.reviewer__review {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 137%;
+    color: #1c1c1c;
+    width: 304px;
+}
+
+.reviewer__review span{
+    display: block;
+    margin-bottom: -10px;
+}
+
+
+/*?====================================== MAIN-NEWS ======================================*/
+
+
+.main__news {
+    background: #f8f8f8;
+}
+
+.news__inner {
+    position: relative;
+    padding: 134px 0 140px;
+}
+
+.news__inner::after{
+    position: absolute;
+    content: url(../img/News.png);
+    top: 180px;
+    left: -155px;
+}
+
+.news__subtitle {
+    margin: 4px 0 62px;
+}
+
+.news__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 32px;
+}
+
+.news__grid-item {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.news__grid-item:hover{
+    transform: scale(1.1);
+}
+
+.news__grid-item--1 {
+    width: 544px;
+    height: 255px;
+    grid-column: 1 / 3
+}
+
+.news__grid-item--5 {
+    width: 544px;
+    height: 255px;
+    grid-column: 2 / 4 ;
+}
+
+.news__grid-card--5{
+    padding-left: 275px;
+}
+
+.news__grid-card--1,
+.news__grid-card--5 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding:28px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.news__grid-item--2,
+.news__grid-item--3,
+.news__grid-item--4,
+.news__grid-item--6 {
+    width: 256px;
+    height: 256px;
+}
+
+.news__grid-card--2,
+.news__grid-card--3,
+.news__grid-card--4,
+.news__grid-card--6 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.news__grid-item:hover{
+    transform: scale(1.1);
+}
+
+.news__grid-item--6 {
+    width: 256px;
+    height: 256px;
+}
+
+.news__grid-title {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 234px;
+    margin-bottom: 12px;
+}
+.news__grid-title--1,
+.news__grid-title--5{
+    font-size: 24px;
+}
+
+.news__grid-more {
+    position: relative;
+    color:#ffffff9d;
+}
+
+.news__grid-more::after{
+    position: absolute;
+    content: url(../img/line.svg);
+    left: 64px;
+}
+
+
+/*?====================================== MAIN-ABOUT ======================================*/
+
+
+.about__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 174px 0 88px;
+}
+
+.about__inner::after{
+    position: absolute;
+    content: url(../img/We.png);
+    top: 55px;
+    right: -230px;
+}
+
+.about__inner img{
+    border-radius: 30px;
+}
+
+.news__title {
+    text-align: center;
+}
+
+.news__subtitle {
+    text-align: center;
+    margin: 4px 0 72px;
+}
+
+.about__top {
+    display: flex;
+    gap: 49px;
+    font-weight: 300;
+    line-height: 1.62;
+    color: #1c1c1c;
+}
+
+.about__top p{
+    width: 526px;
+    
+}
+
+.about__top span{
+    font-family: 'Rasfire Regular Personal Use', sans-serif;
+    font-weight: 400;
+    line-height: .8;
+    font-size: 85px;
+    color: #1c1c1c;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+.about__bottom {
+    display: flex;
+    align-items: start;
+    gap: 32px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 162%;
+    color: #1c1c1c;
+}
+
+.about__bottom p{
+    max-width: 352px;
+    margin-top: 72px;
+}
+
+
+/*?====================================== MAIN-CONTACTS ======================================*/
+
+
+.contacts__inner {
+    position: relative;
+    display: flex;
+    gap: 87px;
+    padding: 42px 48px;
+    margin-bottom: 140px;
+}
+
+.contacts__inner::after {
+    position: absolute;
+    content: '';
+    border: 1px solid #d4d4d4;
+    width: 1120px;
+    height: 0px;
+    top: 0px;
+}
+
+.contacts__inner::before {
+    position: absolute;
+    content: '';
+    border: 1px solid #d4d4d4;
+    width: 1120px;
+    height: 0px;
+    bottom: 0px;
+}
+
+.social {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.social::after{
+    position: absolute;
+    content: '';
+    border: 1px solid #d4d4d4;
+    height: 63px;
+    width: 0px;
+    right: -50px;
+}
+
+.social__title {
+    font-weight: 500;
+}
+
+.social__list {
+    display: flex;
+    gap: 15px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.contacts__title {
+    font-weight: 500;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.contacts__item{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 162%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* color: #1c1c1c; */
+}
+
+.address {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.address::after {
+    position: absolute;
+    content: '';
+    border: 1px solid #d4d4d4;
+    height: 63px;
+    width: 0px;
+    left: -50px;
+}
+
+.address__title {
+    font-weight: 500;
+}
+
+.address a {
+    font-weight: 300;
+    line-height: 1.62;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*?====================================== MAIN-FEEDBACK--2 ======================================*/
+
+.main__feedback--2 {
+    background: url(../img/footer-bg.png) center no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 413px ;
+    padding: 0;
+}

@@ -1,0 +1,114 @@
+.footer {
+    background: #222;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__inner {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    gap: 549px;
+}
+
+.footer__form{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    width: 410px;
+    height: 40px;
+    line-height: 1.3;
+}
+
+.footer__form span{
+    width: 149px;
+    letter-spacing: 0.02em;
+}
+
+.footer__form input{
+    background: #222;
+}
+
+.footer__form form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 11px 50px;
+}
+
+.footer__form form::after{
+    position: absolute;
+    content: url(../img/mail.svg);
+    top: 7px;
+    left: 15px;
+}
+
+.footer__form button{
+    background: #222;
+    margin:2px -30px 0 0;
+}
+
+.footer__form input::placeholder{
+    font-size: 14px;
+    color: #737373;
+}
+
+.footer__midle-list {
+    position: relative;
+    display: flex;
+    gap: 58px;
+}
+
+.footer__midle-list::after {
+    position: absolute;
+    content: '';
+    border: 1px solid #494949;
+    width: 1120px;
+    height: 0px;
+    top: -50px;
+    left: -93px;
+}
+
+.footer__midle-list::before {
+    position: absolute;
+    content: '';
+    border: 1px solid #494949;
+    width: 1120px;
+    height: 0px;
+    bottom: -50px;
+    left: -93px;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-transform: none;
+}
+
+.footer__social-list {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 12px;
+    color: #525252;
+}
