@@ -77,3 +77,10 @@ document.addEventListener('keydown', event => {
         closeModal()
     }
 })
+
+
+
+document.querySelector('.modal__form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    swal('Ваше сообщение успешно отправлено!');
+});
