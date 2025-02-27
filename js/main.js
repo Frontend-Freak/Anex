@@ -11,9 +11,7 @@ const toursSwiper = new Swiper('.tours__slider', {
         1024: {
             slidesPerView: 5.3,
         },
-    },
-    breakpoints: {
-        360: {
+        430: {
             slidesPerView: 1.3,
         },
     },
@@ -32,7 +30,7 @@ const hotelsSwiper = new Swiper('.hotels__slider', {
         draggable: true,
     },
     breakpoints: {
-        360: {
+        430: {
             slidesPerView: 1,
         },
     },
@@ -78,8 +76,8 @@ const reviewsSwiper = new Swiper('.reviews__slider', {
         1024: {
             slidesPerView: 4,
         },
-        360:{
-            slidesPerView: 1.4,
+        430:{
+            slidesPerView: 1.5,
         }
     },
 });
