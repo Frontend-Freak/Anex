@@ -114,5 +114,10 @@
 }
 
 @media (max-width: 1024px) {
-    
+    .footer__top{
+        gap: 359px;
+    }
+    .footer__midle-list{
+        gap: 52px;
+    }
 }
