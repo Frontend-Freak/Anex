@@ -20,10 +20,8 @@ const toursSwiper = new Swiper('.tours__slider', {
 
 //СЛФЙДЕР НОМЕР 2
 const hotelsSwiper = new Swiper('.hotels__slider', {
-    slidesPerView: 3,
-    spaceBetween: 60,
-    centeredSlides: true,
-    loop: true,
+    slidesPerView: 1,
+    
 
     scrollbar: {
         el: '.hotels__scrollbar',
@@ -31,7 +29,10 @@ const hotelsSwiper = new Swiper('.hotels__slider', {
     },
     breakpoints: {
         430: {
-            slidesPerView: 1,
+            slidesPerView: 3,
+            spaceBetween: 60,
+            centeredSlides: true,
+            loop: true,
         },
     },
 });
