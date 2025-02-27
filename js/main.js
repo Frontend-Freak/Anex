@@ -1,16 +1,20 @@
 //СЛФЙДЕР НОМЕР 1
 const toursSwiper = new Swiper('.tours__slider', {
     slidesPerView: 3.7,
-    spaceBetween: 0,
     
     scrollbar: {
         el: '.tours__scrollbar',
         draggable: true,
     },
-    
+
     breakpoints: {
         1024: {
             slidesPerView: 5.3,
+        },
+    },
+    breakpoints: {
+        360: {
+            slidesPerView: 1.3,
         },
     },
 });
@@ -27,7 +31,11 @@ const hotelsSwiper = new Swiper('.hotels__slider', {
         el: '.hotels__scrollbar',
         draggable: true,
     },
-    
+    breakpoints: {
+        360: {
+            slidesPerView: 1,
+        },
+    },
 });
 
 /* const hotelsSwiper = new Swiper('.hotels__slider', {
@@ -63,12 +71,16 @@ const reviewsSwiper = new Swiper('.reviews__slider', {
     },
 
     breakpoints: {
+
         1440: {
             slidesPerView: 3.5,
         },
         1024: {
             slidesPerView: 4,
         },
+        360:{
+            slidesPerView: 1.4,
+        }
     },
 });
 

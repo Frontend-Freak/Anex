@@ -907,3 +907,53 @@ padding: 2px 10px;
     }
     
 }
+
+
+@media (max-width: 361px){
+    .ticket__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+        width: 300px;
+        height: 405px;
+        background-color: #fff;
+        padding: 15px 24px;
+    }
+    .swiper-slide-active.hotels__slide{
+        transform: scale(0.8);
+        margin: 0 0px;
+    }
+    .hotels__card{
+        margin-left: -10px;
+    }
+    .feedback-inner {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .feedback__title {
+        text-align: center;
+        }
+    .reviews__card {
+        width: 248px;
+        height: 422px;
+        }
+    .reviewer__review {
+        width: 204px;
+    }
+    .news__grid-card--1,
+    .news__grid-card--5,
+    .news__grid-card--1, 
+    .news__grid-card--5{
+        display: none;
+    }
+
+    .contacts__inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 87px;
+        padding: 42px 48px;
+        margin-bottom: 140px;
+        }
+}

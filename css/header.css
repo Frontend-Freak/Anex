@@ -236,6 +236,18 @@
     .header__nav-item:nth-child(4){
         display: none;
     }
+}
 
-    
+@media (max-width: 361px) {
+    .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__nav-list,
+    .header__nav-contact,
+    .header__contact{
+        display: none;
+    }
 }
