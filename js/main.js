@@ -27,6 +27,7 @@ const hotelsSwiper = new Swiper('.hotels__slider', {
         el: '.hotels__scrollbar',
         draggable: true,
     },
+    
 });
 
 /* const hotelsSwiper = new Swiper('.hotels__slider', {
@@ -62,6 +63,9 @@ const reviewsSwiper = new Swiper('.reviews__slider', {
     },
 
     breakpoints: {
+        1440: {
+            slidesPerView: 3.5,
+        },
         1024: {
             slidesPerView: 4,
         },
