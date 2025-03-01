@@ -1,0 +1,57 @@
+/*?====================================== PRIORITY-HERO ======================================*/
+
+
+.hero--priority {
+    position: relative;
+    background:url(../img/bg-hero-priority.png) no-repeat center/cover;
+    height: 385px;
+    z-index: -1;
+}
+
+.hero--priority::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.26);
+    z-index: -1;
+}
+
+.hero__inner--priority {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 385px ;
+}
+
+.hero__title {
+    font-size: 100px;
+    line-height: 1.35;
+}
+
+
+/*?====================================== PRIORITY-ABOUT ======================================*/
+
+
+.about {
+    margin: 100px 0 145px;
+}
+
+.about__priority-title {
+    margin-bottom: 45px;
+}
+
+.about__priority-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__priority-text {
+    width: 486px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.62;
+}
