@@ -1,2 +1,2 @@
 # Anex
-https://wh04m7.github.io/Anex/
+https://frontend-freak.github.io/Anex/
