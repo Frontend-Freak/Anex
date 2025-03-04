@@ -161,6 +161,7 @@ document.querySelectorAll('.accordion-header').forEach(header => {
 const prioritySwiper = new Swiper('.relaxation-priority__slider', {
     slidesPerView: 4,
     spaceBetween: 32,
+    loop: true,
     scrollbar: {
         el: '.relaxation-priority__scrollbar',
         draggable: true,
