@@ -2,7 +2,7 @@
 
 
 .main__hero {
-    background: url(../img/hero-bg.png) center no-repeat;
+    background: url(../img/main-hero-bg.jpg) center no-repeat;
     background-size: cover;
     height: 995px ;
 }
