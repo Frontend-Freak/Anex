@@ -25,7 +25,7 @@
     margin: 38px 0 182px;
 }
 
-.hero__text::after{
+.hero__subtitle::after{
     position: absolute;
     content: url(../img/stick.png);
     bottom: -130px;
@@ -43,6 +43,7 @@
     height: 64px;
     background-color: #fff;
     padding: 0 15px;
+    max-width: 928px;
 }
 
 .ticket__form input[type="text"],

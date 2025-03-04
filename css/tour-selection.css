@@ -1,0 +1,258 @@
+/*?====================================== TOUR SELECTION-HERO ======================================*/
+.main__hero-tour-selection {
+    position: relative;
+    background: url(../img/bg-tour-selection.png) center no-repeat;
+    background-size: cover;
+    height: 482px ;
+    z-index: -1;
+}
+
+.main__hero-tour-selection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.26);
+    z-index: -1;
+}
+
+.main__hero-tour-selection__title {
+    margin-top: 82px;
+    font-size: 100px;
+}
+
+.main__hero-tour-selection__subtitle {
+    margin: 38px 0 82px;
+}
+
+/*?====================================== TOUR SELECTION-VARIANT ======================================*/
+
+
+.variant__inner{
+    margin: 60px 0 78px;
+}
+
+.variant-title span{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 16px;
+color: #1c1c1c;
+}
+
+.variant__sorting {
+    margin: 30px 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sorting {
+    font-weight: 300;
+    position: relative;
+    margin-left: 29px;
+    font-size: 16px;
+}
+
+.sorting::after {
+    position: absolute;
+    content: url(../img/sorting.svg);
+    left: -28px;
+    top: -5px;
+}
+
+.sorting span{
+    font-weight: 400;
+}
+
+.filters {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.map__link {
+    position: relative;
+    font-weight: 300;
+}
+
+.map__link::after{
+    position: absolute;
+    content: url(../img/map.svg);
+    left: -28px;
+    top: -4px;
+}
+
+.filters__button {
+    position: relative;
+    padding: 10px 28px 10px 57px;
+    border: 1px solid #6a6a6a;
+    border-radius: 30px;
+    font-size: 16px;
+    background: inherit;
+/* 
+    width: 154px;
+    height: 40px; */
+}
+
+.filters__button::after{
+    position: absolute;
+    content: url(../img/filters.svg);
+    top: 8px;
+    left: 19px;
+}
+
+
+/*?====================================== TOUR SELECTION-VARIANT-CARD ======================================*/
+
+
+.variant__card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.variant__card-item {
+    display: flex;/* 
+    justify-content: space-between; */
+    border: 1.50px solid #d4d4d4;
+    border-radius: 30px;
+    overflow: hidden;
+    /* width: 1120px; */
+    height: 280px;
+}
+
+.variant__card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 183px; */
+    padding: 24px 0 24px 30px;
+    max-width: 512px;
+    width: 100%;
+}
+
+.location-hotel {
+    margin-bottom: 6px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.name-hotel {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.raiting-hotel {
+    margin-top: 23px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.raiting-hotel span{
+    display: inline-block;
+    border-radius: 30px;
+    width: 40px;
+    height: 24px;
+    background: #463998;    
+    padding: 4px 10px;
+    color: #fff;
+}
+
+.variant__card-desc-bottom {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 27px;
+    position: relative;
+    width: 327px;
+}
+
+.conditions:first-child::after {
+    position: absolute;
+    content: url(../img/calendar.svg);
+    top: -5px;
+    left: -30px;
+}
+
+.conditions::before {
+    position: absolute;
+    content: url(../img/aic.svg);
+    top: 26px;
+    left: -29px;
+}
+
+.advantages-hotel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 174px;
+    /* margin-left: 20px; */
+}
+
+.advantages-hotel-item {
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.advantages-hotel-item::after{
+    position: absolute;
+    content: url(../img/okey.svg);
+    top: 0px;
+    left: -20px;
+}
+
+.variant__card-price {
+    width: 244px;
+    padding: 22px 28px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.variant__card-price::after{
+    position: absolute;
+    content: '';
+    border: 1px solid #d4d4d4;
+    width: 0px;
+    height: 236px;
+    left: 0px;
+    top: 20px;
+}
+
+.when {
+    margin-left: 9px;
+    text-align: center;
+    padding: 6px 18px;
+    border: 1px solid #d4d4d4;
+    border-radius: 30px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.price span{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.price__button {
+    width: 100%;
+}
