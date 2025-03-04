@@ -133,3 +133,45 @@ document.querySelector('.modal__form').addEventListener('submit', function(event
     event.preventDefault();
     swal('Ваше сообщение успешно отправлено!');
 });
+
+
+//аккордеон
+
+document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+            header.classList.remove('active');
+        } else {
+            
+            document.querySelectorAll('.accordion-content').forEach(item => {
+                item.style.maxHeight = null;
+                item.previousElementSibling.classList.remove('active');
+            });
+
+            content.style.maxHeight = content.scrollHeight + "px";
+            header.classList.add('active');
+        }
+    });
+});
+
+//слайдер priority
+const prioritySwiper = new Swiper('.relaxation-priority__slider', {
+    slidesPerView: 4,
+    spaceBetween: 32,
+    scrollbar: {
+        el: '.relaxation-priority__scrollbar',
+        draggable: true,
+    },
+
+    /* breakpoints: {
+        1024: {
+            slidesPerView: 5.3,
+        },
+        430: {
+            slidesPerView: 1.3,
+        },
+    }, */
+});
