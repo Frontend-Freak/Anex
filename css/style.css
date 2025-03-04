@@ -64,6 +64,11 @@ h5{
     color: #fff;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 1024px) {
     .container{
         width: 928px;
