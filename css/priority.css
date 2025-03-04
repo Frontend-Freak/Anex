@@ -55,3 +55,50 @@
     font-size: 16px;
     line-height: 1.62;
 }
+
+
+/*?====================================== PRIORITY-NEW LEVEL ======================================*/
+
+.new__level {
+    background: #f8f8f8;
+}
+
+.new__level-inner {
+    padding: 140px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new__level-title {
+    text-align: center;
+    max-width: 487px;
+    width: 100%;
+}
+
+.new__level-list {
+    margin: 52px 0 60px;
+    display: flex;
+    gap: 32px;
+}
+
+.new__level-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 13px;
+    background: #fff;
+    padding: 23px 20px;
+    border-radius: 30px;
+    max-width: 256px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    text-transform: uppercase;
+}
+
+.new__level__image-list {
+    display: flex;
+    gap: 32px;
+}
