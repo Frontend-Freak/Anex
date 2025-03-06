@@ -62,7 +62,7 @@ const hotelsSwiper = new Swiper('.hotels__slider', {
 const reviewsSwiper = new Swiper('.reviews__slider', {
     slidesPerView: 2.7, 
     spaceBetween: 32,
-        loop: true,
+    loop: true,
 
     scrollbar: {
         el: '.reviews__scrollbar',
