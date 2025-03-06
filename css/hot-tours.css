@@ -1,0 +1,29 @@
+/*?====================================== TOUR SELECTION-HERO ======================================*/
+.main__hero-hot-tour {
+    position: relative;
+    background: url(../img/bg-hot-tours.jpg) center no-repeat;
+    background-size: cover;
+    height: 482px ;
+    z-index: -1;
+}
+
+.main__hero-hot-tour::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.26);
+    z-index: -1;
+}
+
+.main__hero-hot-tour__title {
+    margin-top: 82px;
+    font-size: 100px;
+}
+
+.main__hero-hot-tour__subtitle {
+    margin: 38px 0 82px;
+    max-width: 566px;
+}

@@ -176,3 +176,16 @@ const prioritySwiper = new Swiper('.relaxation-priority__slider', {
         },
     }, */
 });
+
+
+//слайдер выбор тура
+
+const toursSelectionSwiper = new Swiper('.tour-selection__slider', {
+    slidesPerView: 1,
+    spaceBetween: 32,
+    loop: true,
+    scrollbar: {
+        el: '.tour-selection__scrollbar',
+        draggable: true,
+    },
+});

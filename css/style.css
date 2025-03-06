@@ -6,6 +6,7 @@
 @import url('footer.css');
 @import url('priority.css');
 @import url('tour-selection.css');
+@import url('hot-tours.css');
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -68,6 +69,31 @@ h5{
 img{
     max-width: 100%;
     height: auto;
+}
+
+.src {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 44px 0 60px;
+}
+
+.home__page {
+    color: #a1a1a1;
+}
+
+.active__page {
+    color: #1c1c1c;
+}
+
+.hot__variant{
+    position: relative;
+}
+.hot__variant::after{
+    position: absolute;
+    content: url(../img/hot.svg);
+    left: 20px;
+    top: 20px;
 }
 
 @media (max-width: 1024px) {

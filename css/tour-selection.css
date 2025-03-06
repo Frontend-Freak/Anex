@@ -31,7 +31,7 @@
 
 
 .variant__inner{
-    margin: 60px 0 78px;
+    margin: 0 0 78px;
 }
 
 .variant-title span{
@@ -255,4 +255,55 @@ color: #1c1c1c;
 
 .price__button {
     width: 100%;
+}
+
+.tour-selection__slider {
+}
+.tour-selection__wrapper {
+    display: flex;
+}
+.swiper-wrapper {
+    display: flex;
+}
+.tour-selection__slide {
+}
+.swiper-slide {
+}
+.variant__card-list {
+}
+.variant__card-item {
+}
+.variant__card-desc {
+}
+.variant__card-desc-top {
+}
+.location-hotel {
+}
+.name-hotel {
+}
+.raiting-hotel {
+}
+.variant__card-desc-bottom {
+}
+.conditions {
+}
+.advantages-hotel-list {
+}
+.advantages-hotel-item {
+}
+.variant__card-price {
+}
+.when {
+}
+.price {
+}
+.btn {
+}
+.price__button {
+}
+.hot__variant {
+}
+.tour-selection__scrollbar {
+}
+.swiper-scrollbar {
 }
