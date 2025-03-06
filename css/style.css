@@ -7,6 +7,7 @@
 @import url('priority.css');
 @import url('tour-selection.css');
 @import url('hot-tours.css');
+@import url('countries.css');
 
 body{
     font-family: 'Roboto', sans-serif;

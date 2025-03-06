@@ -1,0 +1,31 @@
+.main__hero-countries {
+    position: relative;
+    background: url(../img/bg-countries.jpg) center no-repeat;
+    background-size: cover;
+    height: 385px ;
+    z-index: -1;
+}
+
+.main__hero-countries::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.33);
+    z-index: -1;
+}
+
+.main__hero-countries__inner {
+    padding: 82px 0 32px;
+}
+
+.main__hero-countries__title {
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1.35;
+}
+.main__hero-countries__subtitle {
+    max-width: 695px;
+}
