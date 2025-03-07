@@ -29,3 +29,45 @@
 .main__hero-countries__subtitle {
     max-width: 695px;
 }
+
+
+.countries__inner {
+}
+.countries__title {
+}
+.countries__list {
+    margin-top: 46px;
+
+}
+.countries__item {
+    display: flex;
+    border-radius: 30px;
+    width: 256px;
+    height: 60px;
+    background: #f8f8f8;
+    padding: 10px;
+}
+
+.countries__item img{
+    width: 40px;
+}
+.countires__link {
+}
+.country__inner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    justify-content: center;
+}
+.country__name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 2px;
+    text-transform: none;
+}
+.country__desc {
+    font-weight: 300;
+    font-size: 14px;
+    color: #585858;
+}
