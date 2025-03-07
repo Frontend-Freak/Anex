@@ -18,6 +18,7 @@
 
 .hero__title {
     margin-top: 157px;
+    max-width: 928px;
 }
 
 .hero__subtitle {
